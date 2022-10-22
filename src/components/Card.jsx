@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 function Card(props) {
   const { uuid, title, path } = props;
   return (
-    <div key={uuid}>
-      <h1>{title}</h1>
+    <div key={uuid} className="card">
       <img src={path} alt={title} />
+      <h1>{title}</h1>
     </div>
   );
 }
