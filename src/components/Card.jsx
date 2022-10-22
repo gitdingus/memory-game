@@ -13,7 +13,7 @@ function Card(props) {
   function handleClick() {
     reportClick(uuid, previouslyClicked);
     setPreviouslyClicked(true);
-  };
+  }
 
   return (
     <button key={uuid} type="button" className="card" onClick={handleClick}>
