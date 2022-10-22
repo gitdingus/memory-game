@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-server": "webpack-dev-server --config webpack.config.js"
+    "dev-server": "webpack-dev-server --config webpack.config.js",
+    "github-docs": "webpack --config webpack.github-docs.js"
   },
   "author": "Josh S.",
   "license": "ISC",
