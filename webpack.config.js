@@ -23,6 +23,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.(jpg|jpeg|png)$/,
+        type: 'asset/resource',
+      },
     ],
   },
   plugins: [
