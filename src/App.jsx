@@ -10,8 +10,10 @@ export default function App() {
   ));
 
   return (
-    <div>
-      { Cards }
+    <div className="card-container">
+      {
+        Cards
+      }
     </div>
   );
 }
